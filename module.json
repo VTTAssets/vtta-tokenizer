@@ -1,11 +1,11 @@
 {
   "name": "vtta-tokenizer",
-  "title": "Virtual Tabletop Assets - Tokenizer",
-  "description": "Tiny yet capable in-game token editor, requires trusted user level for uploads",
-  "version": "2.2.1",
-  "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "0.6.4",
-  "author": "Sebastian Will (vttassets@gmail.com)",
+  "title": "Tokenizer - v0.7.5 edition",
+  "description": "Tiny yet capable in-game token editor, requires trusted user level for uploads. This is a fork until vtta-tokenizer is fixed for v0.7.5.",
+  "version": "2.2.2",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.5",
+  "author": "Sebastian Will (vttassets@gmail.com), Jack (jack@mrprimate.co.uk",
   "languages": [
     {
       "lang": "en",
@@ -16,12 +16,17 @@
       "lang": "de",
       "name": "Deutsch",
       "path": "lang/de.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
     }
   ],
   "esmodules": ["./src/index.js"],
   "styles": ["./css/module-settings.css", "./css/default.css", "./src/tokenizer/tokenizer.css"],
   "packs": [],
-  "url": "https://www.vttassets.com/asset/vtta-tokenizer",
-  "manifest": "https://www.vttassets.com/manifest/vtta-tokenizer/stable",
-  "download": ""
+  "url": "https://github.com/mrprimate/vtta-tokenizer/",
+  "manifest": "https://github.com/mrprimate/vtta-tokenizer/releases/download/latest/module.json",
+  "download": "https://github.com/mrprimate/vtta-tokenizer/releases/download/2.2.2/vtta-tokenizer.zip"
 }
